@@ -16,7 +16,7 @@ LOCAL_CFLAGS :=
 
 LOCAL_MODULE:= librilutils
 
-LOCAL_PROTOC_OUTPUT := hardware/ril/librilutils
+LOCAL_PROTOC_OUTPUT := hardware/ril-caf/librilutils
 
 include $(BUILD_SHARED_LIBRARY)
 
@@ -38,7 +38,7 @@ LOCAL_CFLAGS :=
 
 LOCAL_MODULE:= librilutils_static
 
-LOCAL_PROTOC_OUTPUT := hardware/ril/librilutils
+LOCAL_PROTOC_OUTPUT := hardware/ril-caf/librilutils
 
 include $(BUILD_STATIC_LIBRARY)
 
